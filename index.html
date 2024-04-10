@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Integrated Hiragana and Hierarchy Example</title>
+<style>
+
+html { font-size: 200%; } /* Set the default font size to twice as big */
+  .hiragana {
+    color: blue;
+    cursor: pointer;
+  }
+
+  .pronunciation {
+    font-size: 1em; /* Relative font sizing */
+    color: red;
+    padding-left: 5px;
+  }
+
+  .hierarchy-item {
+    margin-left: 20px;
+  }
+
+  .hierarchy-item > .toggle {
+    cursor: pointer;
+    margin-right: 5px;
+  }
+
+  .sub-items {
+    display: none;
+  }
+
+  .sub-items.show {
+    display: block;
+  }
+</style>
+</head>
+
+<body>
+
+<!-- Buttons for increasing and decreasing font size -->
+<div>
+  <button onclick="changeFontSize(-1)">Decrease Font Size</button>
+  <button onclick="changeFontSize(1)">Increase Font Size</button>
+</div>
+
+
+
+<!-- LEAVE RESULT OF MIXING PLUS ADDING HIRAGANA HERE, AND PUT BELOW THE FIRST 3 DIVs -->
+<a>Juan</a></br>
+<a href="Juan 1.html">1</a>
+<a href="Juan 2.html">2</a>
+
+
+
+
+
+
+<script>
+function showHiragana(element) {
+  if (element.querySelector('.pronunciation')) {
+    element.removeChild(element.querySelector('.pronunciation'));
+  } else {
+    var hiragana = element.getAttribute("data-hiragana");
+    var pronunciationText = document.createTextNode(""+ hiragana +"");
+    var pronunciationElement = document.createElement("span");
+    pronunciationElement.appendChild(pronunciationText);
+    pronunciationElement.className = "pronunciation";
+    element.appendChild(pronunciationElement);
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const toggles = document.querySelectorAll('.toggle');
+  
+  toggles.forEach(toggle => {
+    toggle.addEventListener('click', function() {
+      const subItems = this.parentElement.querySelector('.sub-items');
+      if (subItems) {
+        subItems.classList.toggle('show');
+        this.textContent = subItems.classList.contains('show') ? '➖' : '➕';
+      }
+    });
+  });
+});
+
+// Function to change font size
+function changeFontSize(direction) {
+  const htmlElement = document.documentElement;
+  const currentFontSize = parseFloat(window.getComputedStyle(htmlElement).fontSize);
+  htmlElement.style.fontSize = `${currentFontSize + direction}px`;
+}
+</script>
+
+</body>
+</html>
