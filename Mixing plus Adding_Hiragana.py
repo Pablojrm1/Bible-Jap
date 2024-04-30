@@ -36,25 +36,20 @@ input_text = """
 22その後(のち)、イエスは弟子(てし)たちとユダヤ地方(ちほう)に行(い)って、そこに一緒(いっしょ)に滞在(たいざい)し、洗礼(バプテスマ)を授(さず)けておられた。 23他方(たほう)、ヨハネは、サリムの近(ちか)くのアイノンで洗礼(バプテスマ)を授(さず)けていた。そこは水(みず)が豊(ゆた)かであったからである。人々(ひとびと)は来(き)て、洗礼(バプテスマ)を受(う)けていた。 24ヨハネはまだ投獄(とうごく)されていなかったのである。 25ところがヨハネの弟子(でし)たちと、あるユダヤ人(じん)との間(あいだ)で、清(きよ)めのことで論争(ろんそう)が起(お)こった。 26彼(かれ)らはヨハネのもとに来(き)て言(い)った。「ラビ、ヨルダン川(がわ)の向(む)こう側(がわ)であなたと一緒(いっしょ)にいた人(ひと)、あなたが証(あか)しされたあの人(ひと)が、洗礼(バプテスマ)を授(さず)けています。みんながあの人(ひと)の方(ほう)へ行(い)っています。」 27ヨハネは答(こた)えて言(い)った。「天(てん)から与(あた)えられなければ、人(ひと)は何(なに)も受(う)けることができない。 28わたしは、『自分(じぶん)はメシアではない』と言(い)い、『自分(じぶん)はあの方(ほう)の前(まえ)に遣(つか)わされた者(もの)だ』と言(い)ったが、そのことについては、あなたたち自身(じしん)が証(あか)ししてくれる。 29花嫁(はなよめ)を迎(むか)えるのは花婿(はなむこ)だ。花婿(はなむこ)の介添(かいぞ)え人(にん)はそばに立(た)って耳(みみ)を傾(かたむ)け、花婿(はなむこ)の声(こえ)が聞(き)こえると大(おお)いに喜(よろこ)ぶ。だから、わたしは喜(よろこ)びで満(み)たされている。 30あの方(かた)は栄(さか)え、わたしは衰(おとろ)えねばならない。」
 31「上(うえ)から来(こ)られる方(かた)は、すべてのものの上(うえ)におられる。地(ち)から出(で)る者(もの)は地(ち)に属(ぞく)し、地(ち)に属(ぞく)する者(もの)として語(かた)る。天(てん)から来(こ)られる方(かた)は、すべてのものの上(うえ)におられる。 32この方(かた)は、見(み)たこと、聞(き)いたことを証(あか)しされるが、だれもその証(あか)しを受(う)け入(い)れない。 33その証(あか)しを受(う)け入(い)れる者(もの)は、神(かみ)が真実(しんじつ)であることを確認(かくにん)したことになる。 34神(かみ)がお遣(つか)わしになった方(かた)は、神(かみ)の言葉(ことば)を話(はな)される。神(かみ)が“霊(れい)”を限(かぎ)りなくお与(あた)えになるからである。 35御父(おんちち)は御子(みこ)を愛(あい)して、その手(て)にすべてをゆだねられた。 36御子(みこ)を信(しん)じる人(ひと)は永遠(えいえん)の命(いのち)を得(え)ているが、御子(みこ)に従(したが)わない者(もの)は、命(いのち)にあずかることがないばかりか、神(かみ)の怒(いか)りがその上(うえ)にとどまる。」
 
-1 There was a man of the Pharisees named Nicodemus, a ruler of the Jews. 2 This man came to Jesus by night and said to Him, “Rabbi, we know that You are a teacher come from God; for no one can do these signs that You do unless God is with him.”
+1 有一個法利賽人名叫尼哥德慕，是猶太人的官。 2 一天晚上，他來見耶穌，說：「老師，我們知道你是上帝差來教導人的，因為如果沒有上帝的同在，沒有人能行你所行的神蹟。」
+3 耶穌說：「我實實在在地告訴你，人若不重生[a]，就不能看見上帝的國。」
+4 尼哥德慕說：「人老了，怎能重生呢？難道要再進母腹生一次嗎？」
+5 耶穌說：「我實實在在地告訴你，人如果不是從水和聖靈生的，就不能進上帝的國。 6 從肉體生的還是肉體，從聖靈生的才是靈。 7 所以我說你們必須重生，你不要驚奇。 8 風隨意吹動，你聽見它的聲音，卻不知道它從哪裡來，往哪裡去。凡從聖靈生的人也是這樣。」
+9 尼哥德慕又問：「這怎麼可能呢？」
+10 耶穌說：「你是以色列人的教師，還不明白這事嗎？ 11 我實實在在地告訴你，我們所說的是自己知道的，所見證的是自己見過的，可是你們不肯接受我們的見證。 12 我對你們說地上的事，你們尚且不信，要是說天上的事，你們怎麼會信呢？ 13 除了從天上降下來的人子[b]以外，沒有人到過天上。 14 摩西在曠野怎樣舉起銅蛇，人子也必照樣被舉起來， 15 叫一切信祂的人都得到永生。
+16 「因為上帝愛世人，甚至將祂獨一的兒子賜給他們，叫一切信祂的人不致滅亡，反得永生。 17 上帝差祂的兒子到世上來，不是要定世人的罪，而是要藉著祂的兒子拯救世人。 18 信祂的人不會被定罪，不信的人已經被定罪，因為他們不信上帝獨一的兒子。 19 光來到世上，世人因為自己的行為邪惡而不愛光，反愛黑暗，這就是他們被定罪的原因。 20 作惡的人恨光，不肯接近光，恐怕他們的罪行暴露出來。 21 但遵行真理的人喜歡接近光，好顯明他所做的是靠上帝做的。」
+22 這事之後，耶穌和門徒前往猶太地區，在那裡住下來給人施洗。 23-24 那時約翰還沒有入獄，他在靠近撒冷的哀嫩也給人施洗。那裡水多，眾人都去受洗。 25 約翰的門徒和一個猶太人為了潔淨的禮儀爭辯起來， 26 於是門徒來見約翰，說：「老師，你看，以前在約旦河對岸和你在一起、你為祂做見證的那位在給人施洗，眾人都去祂那裡了！」
+27 約翰回答說：「除非是從天上賞賜下來的，否則人什麼都得不到。 28 你們自己可以為我做見證，我說過我不是基督，我只是奉差在祂前面預備道路的。 29 娶新娘的是新郎，站在旁邊的朋友聽見新郎的聲音，就會歡喜快樂。因此，我現在也心滿意足了。 30 祂必興旺，我必衰微。
+31 「從天上來的，超越一切；從地上來的，屬於地，他所談論的也不外乎地上的事。那來自天上、超越萬物的， 32 要把所見所聞講給人聽，只是沒有人接受祂的見證。 33 但已經接受祂見證的人證實了上帝是真實的。 34 上帝所差來的，說的是上帝的話，因為上帝將聖靈無限量地賜給祂。 35 父愛子，已把萬物交在祂手裡。 36 信子的人有永生；不信子的人得不到永生，上帝的烈怒常在他身上。」
 
-3 Jesus answered and said to him, “Most assuredly, I say to you, unless one is born [a]again, he cannot see the kingdom of God.”
 
-4 Nicodemus said to Him, “How can a man be born when he is old? Can he enter a second time into his mother’s womb and be born?”
 
-5 Jesus answered, “Most assuredly, I say to you, unless one is born of water and the Spirit, he cannot enter the kingdom of God. 6 That which is born of the flesh is flesh, and that which is born of the Spirit is spirit. 7 Do not marvel that I said to you, ‘You must be born again.’ 8 The wind blows where it wishes, and you hear the sound of it, but cannot tell where it comes from and where it goes. So is everyone who is born of the Spirit.”
 
-9 Nicodemus answered and said to Him, “How can these things be?”
-
-10 Jesus answered and said to him, “Are you the teacher of Israel, and do not know these things? 11 Most assuredly, I say to you, We speak what We know and testify what We have seen, and you do not receive Our witness. 12 If I have told you earthly things and you do not believe, how will you believe if I tell you heavenly things? 13 No one has ascended to heaven but He who came down from heaven, that is, the Son of Man [b]who is in heaven. 14 And as Moses lifted up the serpent in the wilderness, even so must the Son of Man be lifted up, 15 that whoever believes in Him should [c]not perish but have eternal life. 16 For God so loved the world that He gave His only begotten Son, that whoever believes in Him should not perish but have everlasting life. 17 For God did not send His Son into the world to condemn the world, but that the world through Him might be saved.
-
-18 “He who believes in Him is not condemned; but he who does not believe is condemned already, because he has not believed in the name of the only begotten Son of God. 19 And this is the condemnation, that the light has come into the world, and men loved darkness rather than light, because their deeds were evil. 20 For everyone practicing evil hates the light and does not come to the light, lest his deeds should be exposed. 21 But he who does the truth comes to the light, that his deeds may be clearly seen, that they have been done in God.”
-
-22 After these things Jesus and His disciples came into the land of Judea, and there He remained with them and baptized. 23 Now John also was baptizing in Aenon near Salim, because there was much water there. And they came and were baptized. 24 For John had not yet been thrown into prison.
-
-25 Then there arose a dispute between some of John’s disciples and the Jews about purification. 26 And they came to John and said to him, “Rabbi, He who was with you beyond the Jordan, to whom you have testified—behold, He is baptizing, and all are coming to Him!”
-
-27 John answered and said, “A man can receive nothing unless it has been given to him from heaven. 28 You yourselves bear me witness, that I said, ‘I am not the Christ,’ but, ‘I have been sent before Him.’ 29 He who has the bride is the bridegroom; but the friend of the bridegroom, who stands and hears him, rejoices greatly because of the bridegroom’s voice. Therefore this joy of mine is fulfilled. 30 He must increase, but I must decrease. 31 He who comes from above is above all; he who is of the earth is earthly and speaks of the earth. He who comes from heaven is above all. 32 And what He has seen and heard, that He testifies; and no one receives His testimony. 33 He who has received His testimony has certified that God is true. 34 For He whom God has sent speaks the words of God, for God does not give the Spirit by measure. 35 The Father loves the Son, and has given all things into His hand. 36 He who believes in the Son has everlasting life; and he who does not believe the Son shall not see life, but the wrath of God abides on him.”
 """
 
 grouped_verses = group_verses(input_text)
