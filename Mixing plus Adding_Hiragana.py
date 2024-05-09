@@ -40,33 +40,63 @@ input_text = """
 43二日(ふつか)後(ご)、イエスはそこを出発(しゅっぱつ)して、ガリラヤへ行(い)かれた。 44イエスは自(みずか)ら、「預言者(よげんしゃ)は自分(じぶん)の故郷(こきょう)では敬(うやま)われないものだ」とはっきり言(い)われたことがある。 45ガリラヤにお着(つ)きになると、ガリラヤの人(ひと)たちはイエスを歓迎(かんげい)した。彼(かれ)らも祭(まつ)りに行(い)ったので、そのときエルサレムでイエスがなさったことをすべて、見(み)ていたからである。
 46イエスは、再(ふたた)びガリラヤのカナに行(い)かれた。そこは、前(まえ)にイエスが水(みず)をぶどう酒(しゅ)に変(か)えられた所(ところ)である。さて、カファルナウムに王(おう)の役人(やくにん)がいて、その息子(むすこ)が病気(びょうき)であった。 47この人(ひと)は、イエスがユダヤからガリラヤに来(こ)られたと聞(き)き、イエスのもとに行(い)き、カファルナウムまで下(くだ)って来(き)て息子(むすこ)をいやしてくださるように頼(たの)んだ。息子(むすこ)が死(し)にかかっていたからである。 48イエスは役人(やくにん)に、「あなたがたは、しるしや不思議(ふしぎ)な業(わざ)を見(み)なければ、決(けっ)して信(しん)じない」と言(い)われた。 49役人(やくにん)は、「主(しゅ)よ、子供(こども)が死(し)なないうちに、おいでください」と言(い)った。 50イエスは言(い)われた。「帰(かえ)りなさい。あなたの息子(むすこ)は生(い)きる。」その人(ひと)は、イエスの言(い)われた言葉(ことば)を信(しん)じて帰(かえ)って行(い)った。 51ところが、下(くだ)って行(い)く途中(とちゅう)、僕(しもべ)たちが迎(むか)えに来(き)て、その子(こ)が生(い)きていることを告(つ)げた。 52そこで、息子(むすこ)の病気(びょうき)が良(よ)くなった時刻(じこく)を尋(たず)ねると、僕(しもべ)たちは、「きのうの午後(ごご)一時(いちじ)に熱(ねつ)が下(さ)がりました」と言(い)った。 53それは、イエスが「あなたの息子(むすこ)は生(い)きる」と言(い)われたのと同(おな)じ時刻(じこく)であることを、この父親(ちちおや)は知(し)った。そして、彼(かれ)もその家族(かぞく)もこぞって信(しん)じた。 54これは、イエスがユダヤからガリラヤに来(き)てなされた、二回(にかい)目(め)のしるしである。
 
-1 耶穌得知法利賽人聽見祂收門徒、為人施洗比約翰還多，2 便離開猶太回加利利。3 其實不是耶穌親自施洗，而是祂的門徒施洗。 4 祂回加利利的路上必須經過撒瑪利亞。 5 於是，祂來到撒瑪利亞的一座城，名叫敘加，靠近雅各留給他兒子約瑟的那塊地。 6 雅各井就在那個地方。耶穌走路疲乏，坐在井旁休息。那時是中午時分， 7 門徒都進城買食物去了。8 有一個撒瑪利亞的婦人來打水，耶穌說：「請你給我一點水吧。」
-9 撒瑪利亞婦人說：「你是個猶太人，怎麼向我這撒瑪利亞婦人要水喝？」原來猶太人和撒瑪利亞人互不往來。
-10 耶穌回答說：「要是你知道上帝的恩賜，又知道向你要水喝的是誰，你早就求祂了，祂也早就把活水給你了。」
-11 婦人說：「先生，你沒有打水的器具，井又深，你從哪裡得到活水呢？ 12 我們的祖先雅各把這口井留給我們，他自己和他的兒女、牲畜都喝這井裡的水，難道你比他更偉大嗎？」
-13 耶穌說：「人喝了這井裡的水，還會再渴， 14 但是喝了我所賜的活水，永遠不會再渴。我所賜的水要在他裡面成為生命的泉源，湧流不息，直到永生。」
-15 婦人說：「先生，請你把這種水賜給我，我就不會再渴了，也用不著來打水了。」
-16 耶穌說：「去叫你的丈夫來。」
-17 婦人說：「我沒有丈夫。」耶穌說：「你說的對，你沒有丈夫， 18 因為你已經有過五個丈夫了，現在和你同居的也不是你的丈夫。你說的是實話。」
-19 婦人說：「先生，你一定是先知。 20 我們的祖先一向都是在這山上敬拜上帝，你們卻說耶路撒冷才是敬拜的地方。」
-21 耶穌回答說：「婦人，你當信我。時候快到了，你們將不在這山上，也不在耶路撒冷敬拜父。 22 你們不知道你們敬拜的是誰，我們知道我們敬拜的是誰，因為救恩是從猶太人出來的。 23 時候快到了，其實就是現在，真正敬拜父的，要用心靈按真理敬拜祂，因為父尋找的正是這樣敬拜祂的人。 24 上帝是靈，所以必須用心靈按真理敬拜祂。」
-25 婦人說：「據我所知，那被稱為基督的彌賽亞要來。祂來了，會把一切都告訴我們。」
-26 耶穌說：「我這跟你說話的人就是祂。」
-27 這時，門徒回來了，看見耶穌和一個婦人談話，感到驚奇，可是沒有人問：「你想要什麼？」或問：「你為什麼和她說話？」
-28 那婦人撇下水罐，回到城裡，對人們說： 29 「你們快來看啊！有一個人把我過去的事全部說了出來。莫非祂就是基督？」 30 眾人聽了就到城外去看耶穌。
-31 其間，門徒對耶穌說：「老師，請吃點東西吧。」
-32 耶穌說：「我有食物吃，是你們不知道的。」
-33 門徒彼此議論說：「難道有人給祂吃的了？」
-34 耶穌說：「我的食物就是遵行差我來者的旨意，完成祂的工作。 35 你們不是說還有四個月才到收割的時候嗎？舉目向田觀看吧，莊稼已經熟了，可以收割了。 36 收割的人不但可以得到報酬，而且可以為永生收穫果實，叫撒種的和收割的一同快樂。 37 俗語說得好，『那人撒種，這人收割。』 38 我派你們去收割那些你們沒有勞作的莊稼，別人勞苦，你們享受他們勞苦的成果。」
-39 那城裡有許多撒瑪利亞人信了耶穌，因為那婦人做見證說：「祂將我以前做的一切事情都說了出來。」 40 撒瑪利亞人來見耶穌，懇求祂留下來，祂就在那裡住了兩天。 41 因為耶穌傳的道，信的人更多了。 42 他們對那婦人說：「現在我們信，不再是因為你的話，而是我們親耳聽見了，知道祂真的是救世主。」
-43 兩天後，耶穌動身前往加利利。 44 祂以前說過：「先知在他本鄉不受人尊敬。」 45 然而，祂回到加利利卻受到當地的人歡迎，因為他們上耶路撒冷過節時，看見了祂所做的一切。
-46 祂又到了加利利的迦拿，就是祂從前把水變成酒的地方。有一個大臣的兒子在迦百農患了病。 47 大臣聽說耶穌從猶太來到加利利，立刻趕來見祂，求祂去醫治他病危的兒子。
-48 耶穌對他說：「你們不看見神蹟奇事，總不相信。」
-49 大臣說：「先生，趁我的孩子還沒死，求你趕快去！」
-50 耶穌說：「回去吧，你的兒子好了。」他相信耶穌的話，就回去了。
-51 他途中遇見奴僕來報信說他兒子好了， 52 就問什麼時候好的。僕人說：「昨天下午一點鐘，燒就退了。」
-53 他想起正是那時候耶穌對他說：「你的兒子好了！」他和全家都信了。
-54 這是耶穌從猶太回到加利利後所行的第二個神蹟。
+1 Therefore, when the Lord knew that the Pharisees had heard that Jesus made and baptized more disciples than John 2 (though Jesus Himself did not baptize, but His disciples), 3 He left Judea and departed again to Galilee. 4 But He needed to go through Samaria.
+
+5 So He came to a city of Samaria which is called Sychar, near the plot of ground that Jacob gave to his son Joseph. 6 Now Jacob’s well was there. Jesus therefore, being wearied from His journey, sat thus by the well. It was about the sixth hour.
+
+7 A woman of Samaria came to draw water. Jesus said to her, “Give Me a drink.” 8 For His disciples had gone away into the city to buy food.
+
+9 Then the woman of Samaria said to Him, “How is it that You, being a Jew, ask a drink from me, a Samaritan woman?” For Jews have no dealings with Samaritans.
+
+10 Jesus answered and said to her, “If you knew the gift of God, and who it is who says to you, ‘Give Me a drink,’ you would have asked Him, and He would have given you living water.”
+
+11 The woman said to Him, “Sir, You have nothing to draw with, and the well is deep. Where then do You get that living water? 12 Are You greater than our father Jacob, who gave us the well, and drank from it himself, as well as his sons and his livestock?”
+
+13 Jesus answered and said to her, “Whoever drinks of this water will thirst again, 14 but whoever drinks of the water that I shall give him will never thirst. But the water that I shall give him will become in him a fountain of water springing up into everlasting life.”
+
+15 The woman said to Him, “Sir, give me this water, that I may not thirst, nor come here to draw.”
+
+16 Jesus said to her, “Go, call your husband, and come here.”
+
+17 The woman answered and said, “I have no husband.”
+
+Jesus said to her, “You have well said, ‘I have no husband,’ 18 for you have had five husbands, and the one whom you now have is not your husband; in that you spoke truly.”
+
+19 The woman said to Him, “Sir, I perceive that You are a prophet. 20 Our fathers worshiped on this mountain, and you Jews say that in Jerusalem is the place where one ought to worship.”
+
+21 Jesus said to her, “Woman, believe Me, the hour is coming when you will neither on this mountain, nor in Jerusalem, worship the Father. 22 You worship what you do not know; we know what we worship, for salvation is of the Jews. 23 But the hour is coming, and now is, when the true worshipers will worship the Father in spirit and truth; for the Father is seeking such to worship Him. 24 God is Spirit, and those who worship Him must worship in spirit and truth.”
+
+25 The woman said to Him, “I know that Messiah is coming” (who is called Christ). “When He comes, He will tell us all things.”
+
+26 Jesus said to her, “I who speak to you am He.”
+
+27 And at this point His disciples came, and they marveled that He talked with a woman; yet no one said, “What do You seek?” or, “Why are You talking with her?”
+
+28 The woman then left her waterpot, went her way into the city, and said to the men, 29 “Come, see a Man who told me all things that I ever did. Could this be the Christ?” 30 Then they went out of the city and came to Him.
+
+31 In the meantime His disciples urged Him, saying, “Rabbi, eat.”
+
+32 But He said to them, “I have food to eat of which you do not know.”
+
+33 Therefore the disciples said to one another, “Has anyone brought Him anything to eat?”
+
+34 Jesus said to them, “My food is to do the will of Him who sent Me, and to finish His work. 35 Do you not say, ‘There are still four months and then comes the harvest’? Behold, I say to you, lift up your eyes and look at the fields, for they are already white for harvest! 36 And he who reaps receives wages, and gathers fruit for eternal life, that both he who sows and he who reaps may rejoice together. 37 For in this the saying is true: ‘One sows and another reaps.’ 38 I sent you to reap that for which you have not labored; others have labored, and you have entered into their labors.”
+
+39 And many of the Samaritans of that city believed in Him because of the word of the woman who testified, “He told me all that I ever did.” 40 So when the Samaritans had come to Him, they urged Him to stay with them; and He stayed there two days. 41 And many more believed because of His own word.
+
+42 Then they said to the woman, “Now we believe, not because of what you said, for we ourselves have heard Him and we know that this is indeed [a]the Christ, the Savior of the world.”
+
+43 Now after the two days He departed from there and went to Galilee. 44 For Jesus Himself testified that a prophet has no honor in his own country. 45 So when He came to Galilee, the Galileans received Him, having seen all the things He did in Jerusalem at the feast; for they also had gone to the feast.
+
+46 So Jesus came again to Cana of Galilee where He had made the water wine. And there was a certain [b]nobleman whose son was sick at Capernaum. 47 When he heard that Jesus had come out of Judea into Galilee, he went to Him and implored Him to come down and heal his son, for he was at the point of death. 48 Then Jesus said to him, “Unless you people see signs and wonders, you will by no means believe.”
+
+49 The nobleman said to Him, “Sir, come down before my child dies!”
+
+50 Jesus said to him, “Go your way; your son lives.” So the man believed the word that Jesus spoke to him, and he went his way. 51 And as he was now going down, his servants met him and told him, saying, “Your son lives!”
+
+52 Then he inquired of them the hour when he got better. And they said to him, “Yesterday at the seventh hour the fever left him.” 53 So the father knew that it was at the same hour in which Jesus said to him, “Your son lives.” And he himself believed, and his whole household.
+
+54 This again is the second sign Jesus did when He had come out of Judea into Galilee.
 
 
 """
