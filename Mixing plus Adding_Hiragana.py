@@ -31,6 +31,7 @@ def group_verses(text):
     return combined_verses
 
 input_text = """
+
 1イエスはオリーブ山(やま)へ行(い)かれた。 2朝早(あさはや)く、再(ふたた)び神殿(しんでん)の境内(けいだい)に入(はい)られると、民衆(みんしゅう)が皆(みな)、御自分(ごじぶん)のところにやって来(き)たので、座(すわ)って教(おし)え始(はじ)められた。 3そこへ、律法(りっぽう)学者(がくしゃ)たちやファリサイ派(は)の人々(ひとびと)が、姦通(かんつう)の現場(げんば)で捕(と)らえられた女(おんな)を連(つ)れて来(き)て、真(ま)ん中(なか)に立(た)たせ、 4イエスに言(い)った。「先生(せんせい)、この女(おんな)は姦通(かんつう)をしているときに捕(つか)まりました。 5こういう女(おんな)は石(いし)で打(う)ち殺(ころ)せと、モーセは律法(りっぽう)の中(なか)で命(めい)じています。ところで、あなたはどうお考(かんが)えになりますか。」 6イエスを試(ため)して、訴(うった)える口実(こうじつ)を得(え)るために、こう言(い)ったのである。イエスはかがみ込(こ)み、指(ゆび)で地面(じめん)に何(なに)か書(か)き始(はじ)められた。 7しかし、彼(かれ)らがしつこく問(と)い続(つづ)けるので、イエスは身(み)を起(お)こして言(い)われた。「あなたたちの中(なか)で罪(つみ)を犯(おか)したことのない者(もの)が、まず、この女(おんな)に石(いし)を投(な)げなさい。」 8そしてまた、身(み)をかがめて地面(じめん)に書(か)き続(つづ)けられた。 9これを聞(き)いた者(もの)は、年長者(ねんちょうしゃ)から始(はじ)まって、一人(ひとり)また一人(ひとり)と、立(た)ち去(さ)ってしまい、イエスひとりと、真(ま)ん中(なか)にいた女(おんな)が残(のこ)った。 10イエスは、身(み)を起(お)こして言(い)われた。「婦人(ふじん)よ、あの人(ひと)たちはどこにいるのか。だれもあなたを罪(つみ)に定(さだ)めなかったのか。」 11女(おんな)が、「主(しゅ)よ、だれも」と言(い)うと、イエスは言(い)われた。「わたしもあなたを罪(つみ)に定(さだ)めない。行(い)きなさい。これからは、もう罪(つみ)を犯(おか)してはならない。」〕
 12イエスは再(ふたた)び言(い)われた。「わたしは世(よ)の光(ひかり)である。わたしに従(したが)う者(もの)は暗闇(くらやみ)の中(なか)を歩(ある)かず、命(いのち)の光(ひかり)を持(も)つ。」 13それで、ファリサイ派(は)の人々(ひとびと)が言(い)った。「あなたは自分(じぶん)について証(あか)しをしている。その証(あか)しは真実(しんじつ)ではない。」 14イエスは答(こた)えて言(い)われた。「たとえわたしが自分(じぶん)について証(あか)しをするとしても、その証(あか)しは真実(しんじつ)である。自分(じぶん)がどこから来(き)たのか、そしてどこへ行(い)くのか、わたしは知(し)っているからだ。しかし、あなたたちは、わたしがどこから来(き)てどこへ行(い)くのか、知(し)らない。 15あなたたちは肉(にく)に従(したが)って裁(さば)くが、わたしはだれをも裁(さば)かない。 16しかし、もしわたしが裁(さば)くとすれば、わたしの裁(さば)きは真実(しんじつ)である。なぜならわたしはひとりではなく、わたしをお遣(つか)わしになった父(ちち)と共(とも)にいるからである。 17あなたたちの律法(りっぽう)には、二人(ふたり)が行(おこな)う証(あか)しは真実(しんじつ)であると書(か)いてある。 18わたしは自分(じぶん)について証(あか)しをしており、わたしをお遣(つか)わしになった父(ちち)もわたしについて証(あか)しをしてくださる。」 19彼(かれ)らが「あなたの父(ちち)はどこにいるのか」と言(い)うと、イエスはお答(こた)えになった。「あなたたちは、わたしもわたしの父(ちち)も知(し)らない。もし、わたしを知(し)っていたら、わたしの父(ちち)をも知(し)るはずだ。」 20イエスは神殿(しんでん)の境内(けいだい)で教(おし)えておられたとき、宝物殿(ほうもつでん)の近(ちか)くでこれらのことを話(はな)された。しかし、だれもイエスを捕(と)らえなかった。イエスの時(とき)がまだ来(き)ていなかったからである。
 21そこで、イエスはまた言(い)われた。「わたしは去(さ)って行(い)く。あなたたちはわたしを捜(さが)すだろう。だが、あなたたちは自分(じぶん)の罪(つみ)のうちに死(し)ぬことになる。わたしの行(い)く所(ところ)に、あなたたちは来(く)ることができない。」 22ユダヤ人(じん)たちが、「『わたしの行(い)く所(ところ)に、あなたたちは来(く)ることができない』と言(い)っているが、自殺(じさつ)でもするつもりなのだろうか」と話(はな)していると、 23イエスは彼(かれ)らに言(い)われた。「あなたたちは下(した)のものに属(ぞく)しているが、わたしは上(うえ)のものに属(ぞく)している。あなたたちはこの世(よ)に属(ぞく)しているが、わたしはこの世(よ)に属(ぞく)していない。 24だから、あなたたちは自分(じぶん)の罪(つみ)のうちに死(し)ぬことになると、わたしは言(い)ったのである。『わたしはある』ということを信(しん)じないならば、あなたたちは自分(じぶん)の罪(つみ)のうちに死(し)ぬことになる。」 25彼(かれ)らが、「あなたは、いったい、どなたですか」と言(い)うと、イエスは言(い)われた。「それは初(はじ)めから話(はな)しているではないか。 26あなたたちについては、言(い)うべきこと、裁(さば)くべきことがたくさんある。しかし、わたしをお遣(つか)わしになった方(かた)は真実(しんじつ)であり、わたしはその方(かた)から聞(き)いたことを、世(よ)に向(む)かって話(はな)している。」 27彼(かれ)らは、イエスが御父(おんちち)について話(はな)しておられることを悟(さと)らなかった。 28そこで、イエスは言(い)われた。「あなたたちは、人(ひと)の子(こ)を上(あ)げたときに初(はじ)めて、『わたしはある』ということ、また、わたしが、自分勝手(じぶんかって)には何(なに)もせず、ただ、父(ちち)に教(おし)えられたとおりに話(はな)していることが分(わ)かるだろう。 29わたしをお遣(つか)わしになった方(かた)は、わたしと共(とも)にいてくださる。わたしをひとりにしてはおかれない。わたしは、いつもこの方(かた)の御心(みこころ)に適(かな)うことを行(おこな)うからである。」 30これらのことを語(かた)られたとき、多(おお)くの人々(ひとびと)がイエスを信(しん)じた。
@@ -38,71 +39,38 @@ input_text = """
 39彼(かれ)らが答(こた)えて、「わたしたちの父(ちち)はアブラハムです」と言(い)うと、イエスは言(い)われた。「アブラハムの子(こ)なら、アブラハムと同(おな)じ業(わざ)をするはずだ。 40ところが、今(いま)、あなたたちは、神(かみ)から聞(き)いた真理(しんり)をあなたたちに語(かた)っているこのわたしを、殺(ころ)そうとしている。アブラハムはそんなことはしなかった。 41あなたたちは、自分(じぶん)の父(ちち)と同(おな)じ業(わざ)をしている。」そこで彼(かれ)らが、「わたしたちは姦淫(かんいん)によって生(う)まれたのではありません。わたしたちにはただひとりの父(ちち)がいます。それは神(かみ)です」と言(い)うと、 42イエスは言(い)われた。「神(かみ)があなたたちの父(ちち)であれば、あなたたちはわたしを愛(あい)するはずである。なぜなら、わたしは神(かみ)のもとから来(き)て、ここにいるからだ。わたしは自分勝手(じぶんかって)に来(き)たのではなく、神(かみ)がわたしをお遣(つか)わしになったのである。 43わたしの言(い)っていることが、なぜ分(わ)からないのか。それは、わたしの言葉(ことば)を聞(き)くことができないからだ。 44あなたたちは、悪魔(あくま)である父(ちち)から出(で)た者(もの)であって、その父(ちち)の欲望(よくぼう)を満(み)たしたいと思(おも)っている。悪魔(あくま)は最初(さいしょ)から人殺(ひとごろ)しであって、真理(しんり)をよりどころとしていない。彼(かれ)の内(うち)には真理(しんり)がないからだ。悪魔(あくま)が偽(いつわ)りを言(い)うときは、その本性(ほんせい)から言(い)っている。自分(じぶん)が偽(いつわ)り者(もの)であり、その父(ちち)だからである。 45しかし、わたしが真理(しんり)を語(かた)るから、あなたたちはわたしを信(しん)じない。 46あなたたちのうち、いったいだれが、わたしに罪(つみ)があると責(せ)めることができるのか。わたしは真理(しんり)を語(かた)っているのに、なぜわたしを信(しん)じないのか。 47神(かみ)に属(ぞく)する者(もの)は神(かみ)の言葉(ことば)を聞(き)く。あなたたちが聞(き)かないのは神(かみ)に属(ぞく)していないからである。」
 48ユダヤ人(じん)たちが、「あなたはサマリア人(じん)で悪霊(あくれい)に取(と)りつかれていると、我々(われわれ)が言(い)うのも当然(とうぜん)ではないか」と言(い)い返(かえ)すと、 49イエスはお答(こた)えになった。「わたしは悪霊(あくれい)に取(と)りつかれてはいない。わたしは父(ちち)を重(おも)んじているのに、あなたたちはわたしを重(おも)んじない。 50わたしは、自分(じぶん)の栄光(えいこう)は求(もと)めていない。わたしの栄光(えいこう)を求(もと)め、裁(さば)きをなさる方(かた)が、ほかにおられる。 51はっきり言(い)っておく。わたしの言葉(ことば)を守(まも)るなら、その人(ひと)は決(けっ)して死(し)ぬことがない。」 52ユダヤ人(じん)たちは言(い)った。「あなたが悪霊(あくれい)に取(と)りつかれていることが、今(いま)はっきりした。アブラハムは死(し)んだし、預言者(よげんしゃ)たちも死(し)んだ。ところが、あなたは、『わたしの言葉(ことば)を守(まも)るなら、その人(ひと)は決(けっ)して死(し)を味(あじ)わうことがない』と言(い)う。 53わたしたちの父(ちち)アブラハムよりも、あなたは偉大(いだい)なのか。彼(かれ)は死(し)んだではないか。預言者(よげんしゃ)たちも死(し)んだ。いったい、あなたは自分(じぶん)を何者(なにもの)だと思(おも)っているのか。」 54イエスはお答(こた)えになった。「わたしが自分(じぶん)自身(じしん)のために栄光(えいこう)を求(もと)めようとしているのであれば、わたしの栄光(えいこう)はむなしい。わたしに栄光(えいこう)を与(あた)えてくださるのはわたしの父(ちち)であって、あなたたちはこの方(かた)について、『我々(われわれ)の神(かみ)だ』と言(い)っている。 55あなたたちはその方(かた)を知(し)らないが、わたしは知(し)っている。わたしがその方(かた)を知(し)らないと言(い)えば、あなたたちと同(おな)じくわたしも偽(いつわ)り者(もの)になる。しかし、わたしはその方(かた)を知(し)っており、その言葉(ことば)を守(まも)っている。 56あなたたちの父(ちち)アブラハムは、わたしの日(ひ)を見(み)るのを楽(たの)しみにしていた。そして、それを見(み)て、喜(よろこ)んだのである。」 57ユダヤ人(じん)たちが、「あなたは、まだ五十歳(さい)にもならないのに、アブラハムを見(み)たのか」と言(い)うと、 58イエスは言(い)われた。「はっきり言(い)っておく。アブラハムが生(う)まれる前(まえ)から、『わたしはある。』」 59すると、ユダヤ人(じん)たちは、石(いし)を取(と)り上(あ)げ、イエスに投(な)げつけようとした。しかし、イエスは身(み)を隠(かく)して、神殿(しんでん)の境内(けいだい)から出(で)て行(い)かれた。
 
-1 But Jesus went to the Mount of Olives.
+1眾人都回家去了，耶穌卻上了橄欖山。 2 第二天清晨，祂又回到聖殿。百姓聚集在祂那裡，祂就坐下來教導他們。 3 這時候，律法教師和法利賽人帶來一個通姦時被捉的女人，讓她站在眾人面前， 4 然後問耶穌：「老師，這個女人是在通姦時被捉到的。 5 按摩西的律法，我們要用石頭把她打死，你說該怎麼處置她呢？」
+6 他們這樣問是要使耶穌落在他們的圈套裡，可以有藉口控告祂。耶穌卻只是彎著腰用指頭在地上寫字。 7 他們不斷地追問耶穌，於是祂直起腰來，對他們說：「你們中間誰沒有罪，誰就先拿石頭打她吧。」 8 說完，又彎下腰在地上寫字。
+9 他們聽了這句話，就從老到少一個一個地走了，只剩下耶穌和那個女人在那裡。 10 耶穌直起腰來，說：「婦人，他們到哪裡去了？沒有人定你的罪嗎？」
+11 她說：「主啊，沒有。」
+耶穌說：「我也不定你的罪。回去吧，從今以後不要再犯罪了。」
+12 耶穌又對眾人說：「我是世界的光，凡跟從我的，必不會走在黑暗裡，必要得到生命的光。」
+13 法利賽人對祂說：「你自己為自己做見證，你的見證不真實。」
+14 耶穌說：「即便我自己為自己做見證，我的見證仍是真實的，因為我知道自己從哪裡來、要到哪裡去，你們卻不知道我從哪裡來、要到哪裡去。 15 你們只憑外表判斷別人，我卻不判斷人。 16 就算我判斷人，我的判斷也是正確的，因為我不是獨自一人，還有差我來的父與我同在。 17 你們的律法不是說兩個人做見證就有效嗎？ 18 我是自己為自己做見證，差我來的父也為我做見證。」
+19 他們問：「你的父在哪裡？」
+耶穌回答說：「你們不認識我，也不認識我的父。如果你們認識我，也會認識我的父。」 20 耶穌在聖殿的庫房這樣教導人，但沒有人抓祂，因為祂的時候還沒有到。
+21 耶穌又對他們說：「我要走了，你們會尋找我，你們將死在自己的罪中。我去的地方，你們不能去。」
+22 猶太人說：「祂說祂去的地方我們不能去，難道祂想自殺嗎？」
+23 耶穌對他們說：「你們是從下面來的，我是從上面來的。你們屬於這世界，我不屬於這世界。 24 所以我說你們將死在自己的罪中，你們如果不相信我就是[a]那一位，一定會死在自己的罪中。」
+25 他們問：「你到底是誰？」
+耶穌回答說：「我不是早就告訴你們了嗎？ 26 關於你們，我有許多要說、要審判的，但差我來的那位是真實的，我把從祂那裡聽到的告訴世人。」 27 他們不明白耶穌是指著父說的。
+28 於是耶穌說：「你們舉起人子以後，必知道我就是那一位，並且知道我沒有一件事是憑自己做的，我所說的都是父教導我的。 29 差我來的那位跟我在一起，祂沒有撇下我，讓我孤單一人，因為我做的都是祂所喜悅的。」 30 許多人因為這番話而信了耶穌。
+31 耶穌對信祂的猶太人說：「你們若持守我的道，就真是我的門徒了。 32 你們必認識真理，真理必叫你們得到自由。」
+33 他們說：「我們是亞伯拉罕的子孫，從來沒有做過奴隸，你為什麼說我們可以得到自由呢？」
+34 耶穌說：「我實實在在地告訴你們，所有犯罪的人都是罪的奴隸。 35 奴隸不能永遠留在主人的家裡，只有兒子才可以。 36 所以，如果上帝的兒子釋放了你們，你們就真正自由了！
+37 「我知道你們是亞伯拉罕的子孫，但你們卻想殺我，因為你們心裡容不下我的道。 38 我所說的，是我從父那裡看到的，你們卻照著你們父[b]的話去做。」
+39 他們說：「我們的父就是亞伯拉罕！」
+耶穌說：「你們如果真是亞伯拉罕的子孫，一定會做他所做的事。 40 我把從上帝那裡聽到的真理告訴你們，你們反要殺我，亞伯拉罕絕不做這樣的事。 41 你們是在作你們父所做的事。」
+他們說：「我們不是從淫亂生的！我們只有一位父，就是上帝。」
+42 耶穌說：「如果上帝是你們的父，你們一定會愛我，因為我來自上帝。如今我在這裡，我不是憑自己來的，而是上帝差我來的， 43 你們為什麼不明白我的話呢？因為你們聽不進去我的道。 44 你們是出於你們的父魔鬼，你們樂意順著牠的私慾行。魔鬼從起初就是個殺人兇手，從不站在真理這一邊，因為牠心裡根本沒有真理。撒謊是牠的本性，因為牠是撒謊者，又是撒謊者的始祖。 45 所以，我講真理的時候，你們不信我。 46 你們誰能指證我有罪呢？我既然把真理告訴了你們，你們為什麼還不信我呢？ 47 出於上帝的人聽上帝的話，你們不聽上帝的話，因為你們不是出於上帝。」
+48 猶太人對(駡？)祂說：「我們說你是撒瑪利亞人[c]，被鬼附身了，難道不對嗎？」
+49 耶穌說：「我沒有被鬼附身。我尊敬我的父，你們卻侮辱我。 50 我不為自己尋求榮耀，但有一位會為我尋求，祂也會斷定誰是誰非。 51 我實實在在地告訴你們，人如果遵行我的道，必永遠不死。」
+52 那些猶太人說：「現在我們的確知道你是被鬼附身了！亞伯拉罕和眾先知都死了，你還說人如果遵行你的道，必永遠不死。 53 難道你比我們的祖先亞伯拉罕還大嗎？他死了，先知們也死了，你以為你是誰？」
+54 耶穌說：「如果我為自己爭取榮耀，那榮耀算不了什麼。但使我得榮耀的是我的父，你們也稱祂為你們的上帝。 55 你們不認識祂，我卻認識祂。如果我說我不認識祂，那我就像你們一樣是說謊的。然而，我認識祂，並且遵行祂的道。 56 你們的祖先亞伯拉罕曾經歡歡喜喜地盼望看到我來的日子。他看見了，就歡喜快樂。」
+57 猶太人說：「你還不到五十歲，怎麼會見過亞伯拉罕呢？」
+58 耶穌說：「我實實在在地告訴你們，亞伯拉罕還沒有出生，我就已經存在了[d]。」 59 於是，他們就拿起石頭要打祂，耶穌卻避開他們，離開了聖殿。
 
-2 Now [a]early in the morning He came again into the temple, and all the people came to Him; and He sat down and taught them. 3 Then the scribes and Pharisees brought to Him a woman caught in adultery. And when they had set her in the midst, 4 they said to Him, “Teacher, [b]this woman was caught in adultery, in the very act. 5 Now [c]Moses, in the law, commanded us [d]that such should be stoned. But what do You [e]say?” 6 This they said, testing Him, that they might have something of which to accuse Him. But Jesus stooped down and wrote on the ground with His finger, [f]as though He did not hear.
 
-7 So when they continued asking Him, He [g]raised Himself up and said to them, “He who is without sin among you, let him throw a stone at her first.” 8 And again He stooped down and wrote on the ground. 9 Then those who heard it, being[h] convicted by their conscience, went out one by one, beginning with the oldest even to the last. And Jesus was left alone, and the woman standing in the midst. 10 When Jesus had raised Himself up [i]and saw no one but the woman, He said to her, “Woman, where are those accusers [j]of yours? Has no one condemned you?”
-
-11 She said, “No one, Lord.”
-
-And Jesus said to her, “Neither do I condemn you; go [k]and sin no more.”
-
-12 Then Jesus spoke to them again, saying, “I am the light of the world. He who follows Me shall not walk in darkness, but have the light of life.”
-
-13 The Pharisees therefore said to Him, “You bear witness of Yourself; Your witness is not [l]true.”
-
-14 Jesus answered and said to them, “Even if I bear witness of Myself, My witness is true, for I know where I came from and where I am going; but you do not know where I come from and where I am going. 15 You judge according to the flesh; I judge no one. 16 And yet if I do judge, My judgment is true; for I am not alone, but I am with the Father who sent Me. 17 It is also written in your law that the testimony of two men is true. 18 I am One who bears witness of Myself, and the Father who sent Me bears witness of Me.”
-
-19 Then they said to Him, “Where is Your Father?”
-
-Jesus answered, “You know neither Me nor My Father. If you had known Me, you would have known My Father also.”
-
-20 These words Jesus spoke in the treasury, as He taught in the temple; and no one laid hands on Him, for His hour had not yet come.
-
-21 Then Jesus said to them again, “I am going away, and you will seek Me, and will die in your sin. Where I go you cannot come.”
-
-22 So the Jews said, “Will He kill Himself, because He says, ‘Where I go you cannot come’?”
-
-23 And He said to them, “You are from beneath; I am from above. You are of this world; I am not of this world. 24 Therefore I said to you that you will die in your sins; for if you do not believe that I am He, you will die in your sins.”
-
-25 Then they said to Him, “Who are You?”
-
-And Jesus said to them, “Just what I have been saying to you from the beginning. 26 I have many things to say and to judge concerning you, but He who sent Me is true; and I speak to the world those things which I heard from Him.”
-
-27 They did not understand that He spoke to them of the Father.
-
-28 Then Jesus said to them, “When you lift[m] up the Son of Man, then you will know that I am He, and that I do nothing of Myself; but as My Father taught Me, I speak these things. 29 And He who sent Me is with Me. The Father has not left Me alone, for I always do those things that please Him.” 30 As He spoke these words, many believed in Him.
-
-31 Then Jesus said to those Jews who believed Him, “If you abide in My word, you are My disciples indeed. 32 And you shall know the truth, and the truth shall make you free.”
-
-33 They answered Him, “We are Abraham’s descendants, and have never been in bondage to anyone. How can You say, ‘You will be made free’?”
-
-34 Jesus answered them, “Most assuredly, I say to you, whoever commits sin is a slave of sin. 35 And a slave does not abide in the house forever, but a son abides forever. 36 Therefore if the Son makes you free, you shall be free indeed.
-
-37 “I know that you are Abraham’s descendants, but you seek to kill Me, because My word has no place in you. 38 I speak what I have seen with My Father, and you do what you have [n]seen with your father.”
-
-39 They answered and said to Him, “Abraham is our father.”
-
-Jesus said to them, “If you were Abraham’s children, you would do the works of Abraham. 40 But now you seek to kill Me, a Man who has told you the truth which I heard from God. Abraham did not do this. 41 You do the deeds of your father.”
-
-Then they said to Him, “We were not born of fornication; we have one Father—God.”
-
-42 Jesus said to them, “If God were your Father, you would love Me, for I proceeded forth and came from God; nor have I come of Myself, but He sent Me. 43 Why do you not understand My speech? Because you are not able to listen to My word. 44 You are of your father the devil, and the desires of your father you want to do. He was a murderer from the beginning, and does not stand in the truth, because there is no truth in him. When he speaks a lie, he speaks from his own resources, for he is a liar and the father of it. 45 But because I tell the truth, you do not believe Me. 46 Which of you convicts Me of sin? And if I tell the truth, why do you not believe Me? 47 He who is of God hears God’s words; therefore you do not hear, because you are not of God.”
-
-48 Then the Jews answered and said to Him, “Do we not say rightly that You are a Samaritan and have a demon?”
-
-49 Jesus answered, “I do not have a demon; but I honor My Father, and you dishonor Me. 50 And I do not seek My own glory; there is One who seeks and judges. 51 Most assuredly, I say to you, if anyone keeps My word he shall never see death.”
-
-52 Then the Jews said to Him, “Now we know that You have a demon! Abraham is dead, and the prophets; and You say, ‘If anyone keeps My word he shall never taste death.’ 53 Are You greater than our father Abraham, who is dead? And the prophets are dead. Who do You make Yourself out to be?”
-
-54 Jesus answered, “If I honor Myself, My honor is nothing. It is My Father who honors Me, of whom you say that He is [o]your God. 55 Yet you have not known Him, but I know Him. And if I say, ‘I do not know Him,’ I shall be a liar like you; but I do know Him and keep His word. 56 Your father Abraham rejoiced to see My day, and he saw it and was glad.”
-
-57 Then the Jews said to Him, “You are not yet fifty years old, and have You seen Abraham?”
-
-58 Jesus said to them, “Most assuredly, I say to you, before Abraham was, I AM.”
-
-59 Then they took up stones to throw at Him; but Jesus hid Himself and went out of the temple, going[p] through the midst of them, and so passed by.
 
 
 
