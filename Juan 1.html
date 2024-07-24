@@ -55,13 +55,7 @@ html { font-size: 200%; } /* Set the default font size to twice as big */
     background-color: white;
     z-index: 100;
   }
-  
-  .audio-text {
-    text-align: left;
-    padding: 0.5px;
-    font-size: 70%;
-  }
-
+ 
   audio {
     width: 100%;
     margin-left: auto;
@@ -78,9 +72,11 @@ html { font-size: 200%; } /* Set the default font size to twice as big */
 <body>
 
 <div class="fixed-audio">
-  <div class="audio-text">Juan 1</div>
+  <a>Juan 1  </a>
   <button onclick="skip(-5)">-5 sec</button>
   <button onclick="skip(5)">+5 sec</button>
+  <button onclick="skip(-2)">-2 sec</button>
+  <button onclick="skip(2)">+2 sec</button>
   <br>
   <audio id="myAudio" controls>
     <source src="4301 JNI.mp3" type="audio/mpeg">
