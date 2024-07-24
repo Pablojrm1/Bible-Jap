@@ -61,6 +61,10 @@ html { font-size: 200%; } /* Set the default font size to twice as big */
     margin-left: auto;
     margin-right: auto;
   }
+
+  .small-text {
+  font-size: 0.5em; /* adjust the value to your liking */
+}
 </style>
 <script>
   function skip(time) {
@@ -72,11 +76,11 @@ html { font-size: 200%; } /* Set the default font size to twice as big */
 <body>
 
 <div class="fixed-audio">
-  <a>Juan 1  </a>
-  <button onclick="skip(-5)">-5 sec</button>
-  <button onclick="skip(5)">+5 sec</button>
-  <button onclick="skip(-2)">-2 sec</button>
-  <button onclick="skip(2)">+2 sec</button>
+  <span class="small-text">Juan 1</span>
+  <button onclick="skip(-5)">-5s</button>
+  <button onclick="skip(5)">+5s</button>
+  <button onclick="skip(-2)">-2s</button>
+  <button onclick="skip(2)">+2s</button>
   <br>
   <audio id="myAudio" controls>
     <source src="4301 JNI.mp3" type="audio/mpeg">
