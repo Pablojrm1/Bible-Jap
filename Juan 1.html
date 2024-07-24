@@ -44,35 +44,54 @@ html { font-size: 200%; } /* Set the default font size to twice as big */
   <button onclick="changeFontSize(1)">Increase Font Size</button>
 </div>
 
+<!-- Audio Bar -->
+
 <style>
   .fixed-audio {
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%; /* This sets the width of the entire fixed-audio container */
-    background-color: white; /* or any color you prefer */
-    z-index: 100; /* ensures the audio bar stays above other elements */
+    width: 100%;
+    background-color: white;
+    z-index: 100;
   }
   
   .audio-text {
-    text-align: left; /* Aligns the text to the left */
-    padding: 2px; /* Adds some padding */
+    text-align: left;
+    padding: 0.5px;
+    font-size: 70%;
   }
 
   audio {
-    width: 90%; /* Adjust this value to set the width of the audio bar */
-    margin-left: auto; /* Centers the audio bar in the fixed-audio container */
-    margin-right: auto; /* Centers the audio bar in the fixed-audio container */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 </style>
+<script>
+  function skip(time) {
+    var audio = document.getElementById('myAudio');
+    audio.currentTime += time;
+  }
+</script>
+</head>
+<body>
 
-<div class="fixed-audio" controls>
-  <div class="audio-text">Juan 1</div> <!-- Add your custom text here -->
-  <audio controls>
+<div class="fixed-audio">
+  <div class="audio-text">Juan 1</div>
+  <button onclick="skip(-5)">-5 sec</button>
+  <button onclick="skip(5)">+5 sec</button>
+  <br>
+  <audio id="myAudio" controls>
     <source src="4301 JNI.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
+ 
 </div>
+
+
+
+<!-- Content-->
 
 <a>Juan 1 (JNI-CCBT)</a></br>
 
