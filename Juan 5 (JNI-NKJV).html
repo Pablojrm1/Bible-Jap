@@ -44,7 +44,56 @@ html { font-size: 200%; } /* Set the default font size to twice as big */
   <button onclick="changeFontSize(1)">Increase Font Size</button>
 </div>
 
+<!-- Audio Bar -->
 
+<style>
+  .fixed-audio {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+  }
+ 
+  audio {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .small-text {
+  font-size: 0.5em; /* adjust the value to your liking */
+}
+</style>
+<script>
+  function skip(time) {
+    var audio = document.getElementById('myAudio');
+    audio.currentTime += time;
+  }
+</script>
+</head>
+<body>
+
+<div class="fixed-audio">
+  <span class="small-text">Juan 1</span>
+  <button onclick="skip(-5)">-5s</button>
+  <button onclick="skip(5)">+5s</button>
+  <button onclick="skip(-2)">-2s</button>
+  <button onclick="skip(2)">+2s</button>
+  <br>
+  <audio id="myAudio" controls>
+    <source src="4305 JNI.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+ 
+</div>
+
+
+
+<!-- Content-->
+
+<a>Juan 5 (JNI-CCBT)</a></br>
 
 
 
