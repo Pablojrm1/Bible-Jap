@@ -1,0 +1,1 @@
+<span class="hiragana" data-hiragana="(ひとびと)" onclick="showHiragana(this)">人々</span>
