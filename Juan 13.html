@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Integrated Hiragana and Hierarchy Example</title>
+<style>
+
+html { font-size: 200%; } /* Set the default font size to twice as big */
+  .hiragana {
+    color: black;
+    cursor: pointer;
+  }
+
+  .pronunciation {
+    font-size: 1em; /* Relative font sizing */
+    color: red;
+    padding-left: 5px;
+  }
+
+  .hierarchy-item {
+    margin-left: 20px;
+  }
+
+  .hierarchy-item > .toggle {
+    cursor: pointer;
+    margin-right: 5px;
+  }
+
+  .sub-items {
+    display: none;
+  }
+
+  .sub-items.show {
+    display: block;
+  }
+</style>
+</head>
+<body>
+
+<!-- Buttons for increasing and decreasing font size -->
+<div>
+  <button onclick="changeFontSize(-1)">Decrease Font Size</button>
+  <button onclick="changeFontSize(1)">Increase Font Size</button>
+  <button id="copy-button">Copy chapter</button></br>
+</div>
+
+
+
+<!-- Audio Bar -->
+
+<style>
+  .fixed-audio {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+  }
+ 
+  audio {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .small-text {
+  font-size: 0.5em; /* adjust the value to your liking */
+}
+</style>
+<script>
+  function skip(time) {
+    var audio = document.getElementById('myAudio');
+    audio.currentTime += time;
+  }
+</script>
+</head>
+<body>
+
+<div class="fixed-audio">
+  <span class="small-text">Juan 13</span>
+  <button onclick="skip(-5)">-5s</button>
+  <button onclick="skip(5)">+5s</button>
+  <button onclick="skip(-2)">-2s</button>
+  <button onclick="skip(2)">+2s</button>
+  <br>
+  <audio id="myAudio" controls>
+    <source src="4313 JNI.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+ 
+</div>
+
+<script>
+  var chapter = `耶穌為門徒洗腳
+13 逾越節之前，耶穌知道自己快要離開世界回到父那裡了。祂一直愛世上屬自己的人，並且愛他們到底。 2 吃晚飯的時候，魔鬼已經把出賣耶穌的念頭放在加略人西門的兒子猶大的心裡。 3 耶穌知道父將一切交給了祂，也知道自己從上帝那裡來、要回到上帝那裡， 4 就離席站起來，脫了外衣，把毛巾束在腰間， 5 然後倒了一盆水為門徒洗腳，用束在腰間的毛巾擦乾。 6 輪到西門·彼得的時候，他說：「主啊！你要洗我的腳嗎？」
+
+7 耶穌回答說：「我這樣做，你現在雖然不明白，將來一定會明白。」
+
+8 彼得說：「你絕對不可以洗我的腳。」
+
+耶穌說：「如果我不洗你的腳，你就和我沒有關係了。」
+
+9 西門·彼得說：「主啊，不只我的腳，連我的手和頭也幫我洗吧。」
+
+10 耶穌說：「洗過澡的人全身是乾淨的，只要洗洗腳就好了。你們是乾淨的，但不是每一個都乾淨。」
+
+11 因為耶穌知道誰要出賣祂，所以說：「你們不是每一個都乾淨。」
+
+12 耶穌給門徒洗完了腳，便穿上外衣再次坐下來，然後問道：「我為你們做的，你們明白嗎？ 13 你們稱呼我『老師』，也稱呼我『主』，你們稱呼得對，因為我是。 14 我是你們的老師又是你們的主，尚且給你們洗腳，你們更應當彼此洗腳。 15 我給你們立了一個榜樣，好讓你們效法我。
+
+16 「我實實在在地告訴你們，奴僕不能大過主人，受差遣的也不能大過差遣他的人。 17 既然你們明白這個道理，如果去實踐，就有福了。 18 我這話不是對你們每一個人說的，我知道我揀選了誰，但這是為了要應驗聖經上的話，『吃我飯的人用腳踢我』[a]。 19 我在事情還沒有發生之前，預先告訴你們，等事情發生以後，你們就會相信我是基督。 20 我實實在在地告訴你們，人若接待我所差遣的，就是接待我；接待我，就是接待差我來的那位。」
+
+預言猶大賣主
+21 說完這番話，耶穌心裡憂傷，便宣佈說：「我實實在在地告訴你們，你們中間有一個人要出賣我。」 22 門徒面面相覷，不知道耶穌指的是誰。 23-24 西門·彼得向耶穌所愛的那個門徒點頭示意，讓他問耶穌到底是誰要出賣祂。那門徒坐在耶穌旁邊， 25 便順勢靠過去問耶穌：「主啊，是誰呢？」
+
+26 耶穌回答說：「我蘸一點餅給誰，就是誰。」耶穌就蘸了一點餅，遞給加略人西門的兒子猶大。 27 猶大吃了以後，撒旦就進了他的心。耶穌對他說：「你要做的事，趕快去做吧！」 28 同桌吃飯的人沒有人明白耶穌這話的意思。 29 因為猶大是管錢的，有人以為耶穌是叫他去買過節的用品，或者去賙濟窮人。 30 猶大吃過那塊餅後，立刻出去了。那時候是晚上。
+
+新命令
+31 猶大出去以後，耶穌就說：「現在人子得到榮耀了，上帝在人子身上也得了榮耀。 32 上帝既然在人子身上得了榮耀，也要讓人子在祂身上得榮耀，並且馬上要使人子得榮耀。 33 孩子們，我與你們同在的時間不多了，以後你們要找我，但我去的地方，你們不能去。這句話我以前對猶太人說過，現在也照樣告訴你們。 34 我賜給你們一條新命令——你們要彼此相愛。我怎樣愛你們，你們也要怎樣彼此相愛。 35 你們如果彼此相愛，世人就會認出你們是我的門徒。」
+
+預言彼得不認主
+36 西門·彼得問耶穌：「主啊，你要到哪裡去？」
+
+耶穌回答說：「我要去的地方，你現在不能跟我去，但將來必定跟我去。」
+
+37 彼得說：「主啊！為什麼我現在不能跟你去呢？就是為你死，我也願意！」
+
+38 耶穌說：「你真的願意為我死嗎？我實實在在地告訴你，雞叫以前，你會三次不認我。」
+
+Footnotes
+13·18 參見詩篇41·9。`;
+
+  
+  document.getElementById("copy-button").addEventListener("click", function() {
+  navigator.clipboard.writeText(chapter).then(function() {
+    console.log("Text copied to clipboard");
+  });
+});
+</script>
+
+<!-- Content-->
+
+<a>Juan 13 (JNI-CCBT)</a></br>
+
+
+
+<!-- content down here.... -->
+
+<div class="hierarchy-item"> <span class="toggle">➕</span>1さて、<span class="hiragana" data-hiragana="かえりごえさい" onclick="showHiragana(this)">過越祭</span>の<span class="hiragana" data-hiragana="まえ" onclick="showHiragana(this)">前</span>のことである。イエスは、この<span class="hiragana" data-hiragana="よ" onclick="showHiragana(this)">世</span>から<span class="hiragana" data-hiragana="ちち" onclick="showHiragana(this)">父</span>のもとへ<span class="hiragana" data-hiragana="うつ" onclick="showHiragana(this)">移</span>る<span class="hiragana" data-hiragana="みじぶん" onclick="showHiragana(this)">御自分</span>の<span class="hiragana" data-hiragana="とき" onclick="showHiragana(this)">時</span>が<span class="hiragana" data-hiragana="き" onclick="showHiragana(this)">来</span>たことを<span class="hiragana" data-hiragana="さと" onclick="showHiragana(this)">悟</span>り、<span class="hiragana" data-hiragana="よ" onclick="showHiragana(this)">世</span>にいる<span class="hiragana" data-hiragana="でし" onclick="showHiragana(this)">弟子</span>たちを<span class="hiragana" data-hiragana="あい" onclick="showHiragana(this)">愛</span>して、この<span class="hiragana" data-hiragana="うえ" onclick="showHiragana(this)">上</span>なく<span class="hiragana" data-hiragana="あい" onclick="showHiragana(this)">愛</span>し<span class="hiragana" data-hiragana="ぬ" onclick="showHiragana(this)">抜</span>かれた。 <div class="sub-items"> <div class="hierarchy-item">•逾越節之前，耶穌知道自己快要離開世界回到父那裡了。祂一直愛世上屬自己的人，並且愛他們到底。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>2<span class="hiragana" data-hiragana="ゆうしょく" onclick="showHiragana(this)">夕食</span>のときであった。<span class="hiragana" data-hiragana="すで" onclick="showHiragana(this)">既</span>に<span class="hiragana" data-hiragana="あくま" onclick="showHiragana(this)">悪魔</span>は、イスカリオテのシモンの<span class="hiragana" data-hiragana="こ" onclick="showHiragana(this)">子</span>ユダに、イエスを<span class="hiragana" data-hiragana="うらぎ" onclick="showHiragana(this)">裏切</span>る<span class="hiragana" data-hiragana="かんが" onclick="showHiragana(this)">考</span>えを<span class="hiragana" data-hiragana="いだ" onclick="showHiragana(this)">抱</span>かせていた。 <div class="sub-items"> <div class="hierarchy-item">•吃晚飯的時候，魔鬼已經把出賣耶穌的念頭放在加略人西門的兒子猶大的心裡。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>3イエスは、<span class="hiragana" data-hiragana="ちち" onclick="showHiragana(this)">父</span>がすべてを<span class="hiragana" data-hiragana="みじぶん" onclick="showHiragana(this)">御自分</span>の<span class="hiragana" data-hiragana="て" onclick="showHiragana(this)">手</span>にゆだねられたこと、また、<span class="hiragana" data-hiragana="みじぶん" onclick="showHiragana(this)">御自分</span>が<span class="hiragana" data-hiragana="かみ" onclick="showHiragana(this)">神</span>のもとから<span class="hiragana" data-hiragana="き" onclick="showHiragana(this)">来</span>て、<span class="hiragana" data-hiragana="かみ" onclick="showHiragana(this)">神</span>のもとに<span class="hiragana" data-hiragana="かえ" onclick="showHiragana(this)">帰</span>ろうとしていることを<span class="hiragana" data-hiragana="さと" onclick="showHiragana(this)">悟</span>り、 <div class="sub-items"> <div class="hierarchy-item">•耶穌知道父將一切交給了祂，也知道自己從上帝那裡來、要回到上帝那裡， </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>4<span class="hiragana" data-hiragana="しょくじ" onclick="showHiragana(this)">食事</span>の<span class="hiragana" data-hiragana="せき" onclick="showHiragana(this)">席</span>から<span class="hiragana" data-hiragana="た" onclick="showHiragana(this)">立</span>ち<span class="hiragana" data-hiragana="あ" onclick="showHiragana(this)">上</span>がって<span class="hiragana" data-hiragana="うわぎ" onclick="showHiragana(this)">上着</span>を<span class="hiragana" data-hiragana="ぬ" onclick="showHiragana(this)">脱</span>ぎ、手ぬぐいを<span class="hiragana" data-hiragana="と" onclick="showHiragana(this)">取</span>って<span class="hiragana" data-hiragana="こし" onclick="showHiragana(this)">腰</span>にまとわれた。 <div class="sub-items"> <div class="hierarchy-item">•就離席站起來，脫了外衣，把毛巾束在腰間， </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>5それから、たらいに<span class="hiragana" data-hiragana="みず" onclick="showHiragana(this)">水</span>をくんで<span class="hiragana" data-hiragana="でし" onclick="showHiragana(this)">弟子</span>たちの<span class="hiragana" data-hiragana="あし" onclick="showHiragana(this)">足</span>を<span class="hiragana" data-hiragana="あら" onclick="showHiragana(this)">洗</span>い、<span class="hiragana" data-hiragana="こし" onclick="showHiragana(this)">腰</span>にまとった手ぬぐいでふき<span class="hiragana" data-hiragana="はじ" onclick="showHiragana(this)">始</span>められた。 <div class="sub-items"> <div class="hierarchy-item">•然後倒了一盆水為門徒洗腳，用束在腰間的毛巾擦乾。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>6シモン・ペトロのところに<span class="hiragana" data-hiragana="き" onclick="showHiragana(this)">来</span>ると、ペトロは、「<span class="hiragana" data-hiragana="しゅ" onclick="showHiragana(this)">主</span>よ、あなたがわたしの<span class="hiragana" data-hiragana="あし" onclick="showHiragana(this)">足</span>を<span class="hiragana" data-hiragana="あら" onclick="showHiragana(this)">洗</span>ってくださるのですか」と<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>った。 <div class="sub-items"> <div class="hierarchy-item">•輪到西門·彼得的時候，他說：「主啊！你要洗我的腳嗎？」 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>7イエスは<span class="hiragana" data-hiragana="こた" onclick="showHiragana(this)">答</span>えて、「わたしのしていることは、<span class="hiragana" data-hiragana="いま" onclick="showHiragana(this)">今</span>あなたには<span class="hiragana" data-hiragana="わか" onclick="showHiragana(this)">分</span>るまいが、<span class="hiragana" data-hiragana="あと" onclick="showHiragana(this)">後</span>で、<span class="hiragana" data-hiragana="わか" onclick="showHiragana(this)">分</span>るようになる」と<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>われた。 <div class="sub-items"> <div class="hierarchy-item">•耶穌回答說：「我這樣做，你現在雖然不明白，將來一定會明白。」 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>8ペトロが、「わたしの<span class="hiragana" data-hiragana="あし" onclick="showHiragana(this)">足</span>など、<span class="hiragana" data-hiragana="けっ" onclick="showHiragana(this)">決</span>して<span class="hiragana" data-hiragana="あら" onclick="showHiragana(this)">洗</span>わないでください」と<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>うと、イエスは、「もしわたしがあなたを<span class="hiragana" data-hiragana="あら" onclick="showHiragana(this)">洗</span>わないなら、あなたはわたしと<span class="hiragana" data-hiragana="なん" onclick="showHiragana(this)">何</span>のかかわりもないことになる」と<span class="hiragana" data-hiragana="こた" onclick="showHiragana(this)">答</span>えられた。 <div class="sub-items"> <div class="hierarchy-item">•彼得說：「你絕對不可以洗我的腳。」
+
+耶穌說：「如果我不洗你的腳，你就和我沒有關係了。」 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>9そこでシモン・ペトロが<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>った。「<span class="hiragana" data-hiragana="しゅ" onclick="showHiragana(this)">主</span>よ、<span class="hiragana" data-hiragana="あし" onclick="showHiragana(this)">足</span>だけでなく、<span class="hiragana" data-hiragana="て" onclick="showHiragana(this)">手</span>も<span class="hiragana" data-hiragana="あたま" onclick="showHiragana(this)">頭</span>も。」 <div class="sub-items"> <div class="hierarchy-item">•西門·彼得說：「主啊，不只我的腳，連我的手和頭也幫我洗吧。」 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>10イエスは<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>われた。「<span class="hiragana" data-hiragana="すで" onclick="showHiragana(this)">既</span>に<span class="hiragana" data-hiragana="からだ" onclick="showHiragana(this)">体</span>を<span class="hiragana" data-hiragana="あら" onclick="showHiragana(this)">洗</span>った<span class="hiragana" data-hiragana="もの" onclick="showHiragana(this)">者</span>は、<span class="hiragana" data-hiragana="ぜんしん" onclick="showHiragana(this)">全身</span><span class="hiragana" data-hiragana="きよ" onclick="showHiragana(this)">清</span>いのだから、<span class="hiragana" data-hiragana="あし" onclick="showHiragana(this)">足</span>だけ<span class="hiragana" data-hiragana="あら" onclick="showHiragana(this)">洗</span>えばよい。あなたがたは<span class="hiragana" data-hiragana="きよ" onclick="showHiragana(this)">清</span>いのだが、<span class="hiragana" data-hiragana="みな" onclick="showHiragana(this)">皆</span>が<span class="hiragana" data-hiragana="きよ" onclick="showHiragana(this)">清</span>いわけではない。」 <div class="sub-items"> <div class="hierarchy-item">•耶穌說：「洗過澡的人全身是乾淨的，只要洗洗腳就好了。你們是乾淨的，但不是每一個都乾淨。」 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>11イエスは、<span class="hiragana" data-hiragana="ごじぶん" onclick="showHiragana(this)">御自分</span>を<span class="hiragana" data-hiragana="うらぎ" onclick="showHiragana(this)">裏切</span>ろうとしている<span class="hiragana" data-hiragana="もの" onclick="showHiragana(this)">者</span>がだれであるかを<span class="hiragana" data-hiragana="し" onclick="showHiragana(this)">知</span>っておられた。それで、「<span class="hiragana" data-hiragana="みな" onclick="showHiragana(this)">皆</span>が<span class="hiragana" data-hiragana="きよ" onclick="showHiragana(this)">清</span>いわけではない」と<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>われたのである。 <div class="sub-items"> <div class="hierarchy-item">•因為耶穌知道誰要出賣祂，所以說：「你們不是每一個都乾淨。」 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>12さて、イエスは、<span class="hiragana" data-hiragana="でし" onclick="showHiragana(this)">弟子</span>たちの<span class="hiragana" data-hiragana="あし" onclick="showHiragana(this)">足</span>を<span class="hiragana" data-hiragana="あら" onclick="showHiragana(this)">洗</span>ってしまうと、<span class="hiragana" data-hiragana="うわぎ" onclick="showHiragana(this)">上着</span>を<span class="hiragana" data-hiragana="き" onclick="showHiragana(this)">着</span>て、<span class="hiragana" data-hiragana="ふた" onclick="showHiragana(this)">再</span>び<span class="hiragana" data-hiragana="せき" onclick="showHiragana(this)">席</span>に<span class="hiragana" data-hiragana="つ" onclick="showHiragana(this)">着</span>いて<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>われた。「わたしがあなたがたにしたことが<span class="hiragana" data-hiragana="わか" onclick="showHiragana(this)">分</span>るか。 <div class="sub-items"> <div class="hierarchy-item">•耶穌給門徒洗完了腳，便穿上外衣再次坐下來，然後問道：「我為你們做的，你們明白嗎？ </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>13あなたがたは、わたしを『<span class="hiragana" data-hiragana="せんせい" onclick="showHiragana(this)">先生</span>』とか『<span class="hiragana" data-hiragana="しゅ" onclick="showHiragana(this)">主</span>』とか<span class="hiragana" data-hiragana="よ" onclick="showHiragana(this)">呼</span>ぶ。そのように<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>うのは<span class="hiragana" data-hiragana="ただ" onclick="showHiragana(this)">正</span>しい。わたしはそうである。 <div class="sub-items"> <div class="hierarchy-item">•你們稱呼我『老師』，也稱呼我『主』，你們稱呼得對，因為我是。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>14ところで、<span class="hiragana" data-hiragana="しゅ" onclick="showHiragana(this)">主</span>であり、<span class="hiragana" data-hiragana="し" onclick="showHiragana(this)">師</span>であるわたしがあなたがたの<span class="hiragana" data-hiragana="あし" onclick="showHiragana(this)">足</span>を<span class="hiragana" data-hiragana="あら" onclick="showHiragana(this)">洗</span>ったのだから、あなたがたも<span class="hiragana" data-hiragana="たが" onclick="showHiragana(this)">互</span>いに<span class="hiragana" data-hiragana="あし" onclick="showHiragana(this)">足</span>を<span class="hiragana" data-hiragana="あら" onclick="showHiragana(this)">洗</span>い<span class="hiragana" data-hiragana="あ" onclick="showHiragana(this)">合</span>わなければならない。 <div class="sub-items"> <div class="hierarchy-item">•我是你們的老師又是你們的主，尚且給你們洗腳，你們更應當彼此洗腳。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>15わたしがあなたがたにしたとおりに、あなたがたもするようにと、<span class="hiragana" data-hiragana="もはん" onclick="showHiragana(this)">模範</span>を<span class="hiragana" data-hiragana="しめ" onclick="showHiragana(this)">示</span>したのである。 <div class="sub-items"> <div class="hierarchy-item">•我給你們立了一個榜樣，好讓你們效法我。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>16はっきり<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>っておく。<span class="hiragana" data-hiragana="しもべ" onclick="showHiragana(this)">僕</span>は<span class="hiragana" data-hiragana="しゅじん" onclick="showHiragana(this)">主人</span>にまさらず、<span class="hiragana" data-hiragana="つか" onclick="showHiragana(this)">遣</span>わされた<span class="hiragana" data-hiragana="もの" onclick="showHiragana(this)">者</span>は<span class="hiragana" data-hiragana="つか" onclick="showHiragana(this)">遣</span>わした<span class="hiragana" data-hiragana="もの" onclick="showHiragana(this)">者</span>にまさりはしない。 <div class="sub-items"> <div class="hierarchy-item">•「我實實在在地告訴你們，奴僕不能大過主人，受差遣的也不能大過差遣他的人。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>17このことが<span class="hiragana" data-hiragana="わか" onclick="showHiragana(this)">分</span>り、そのとおりに<span class="hiragana" data-hiragana="じっこう" onclick="showHiragana(this)">実行</span>するなら、<span class="hiragana" data-hiragana="さいわ" onclick="showHiragana(this)">幸</span>いである。 <div class="sub-items"> <div class="hierarchy-item">•既然你們明白這個道理，如果去實踐，就有福了。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>18わたしは、あなたがた<span class="hiragana" data-hiragana="みな" onclick="showHiragana(this)">皆</span>について、こう<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>っているのではない。わたしは、どのような人々を<span class="hiragana" data-hiragana="えら" onclick="showHiragana(this)">選</span>び<span class="hiragana" data-hiragana="だ" onclick="showHiragana(this)">出</span>したか<span class="hiragana" data-hiragana="わか" onclick="showHiragana(this)">分</span>っている。しかし、『わたしのパン(ぱん)を<span class="hiragana" data-hiragana="た" onclick="showHiragana(this)">食</span>べている<span class="hiragana" data-hiragana="もの" onclick="showHiragana(this)">者</span>が、わたしに<span class="hiragana" data-hiragana="さか" onclick="showHiragana(this)">逆</span>らった』という<span class="hiragana" data-hiragana="せいしょ" onclick="showHiragana(this)">聖書</span>の<span class="hiragana" data-hiragana="ことば" onclick="showHiragana(this)">言葉</span>は<span class="hiragana" data-hiragana="じつげん" onclick="showHiragana(this)">実現</span>しなければならない。 <div class="sub-items"> <div class="hierarchy-item">•我這話不是對你們每一個人說的，我知道我揀選了誰，但這是為了要應驗聖經上的話，『吃我飯的人用腳踢我』[a]。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>19<span class="hiragana" data-hiragana="こと" onclick="showHiragana(this)">事</span>の<span class="hiragana" data-hiragana="お" onclick="showHiragana(this)">起</span>こる<span class="hiragana" data-hiragana="まえ" onclick="showHiragana(this)">前</span>に、<span class="hiragana" data-hiragana="いま" onclick="showHiragana(this)">今</span>、<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>っておく。<span class="hiragana" data-hiragana="こと" onclick="showHiragana(this)">事</span>が<span class="hiragana" data-hiragana="お" onclick="showHiragana(this)">起</span>こったとき、『わたしはある』ということを、あなたがたが<span class="hiragana" data-hiragana="しん" onclick="showHiragana(this)">信</span>じるようになるためである。 <div class="sub-items"> <div class="hierarchy-item">•我在事情還沒有發生之前，預先告訴你們，等事情發生以後，你們就會相信我是基督。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>20はっきり<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>っておく。わたしの<span class="hiragana" data-hiragana="つか" onclick="showHiragana(this)">遣</span>わす<span class="hiragana" data-hiragana="もの" onclick="showHiragana(this)">者</span>を<span class="hiragana" data-hiragana="う" onclick="showHiragana(this)">受</span>け<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">入</span>れる<span class="hiragana" data-hiragana="ひと" onclick="showHiragana(this)">人</span>は、わたしを<span class="hiragana" data-hiragana="う" onclick="showHiragana(this)">受</span>け<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">入</span>れ、わたしを<span class="hiragana" data-hiragana="う" onclick="showHiragana(this)">受</span>け<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">入</span>れる<span class="hiragana" data-hiragana="ひと" onclick="showHiragana(this)">人</span>は、わたしをお<span class="hiragana" data-hiragana="や" onclick="showHiragana(this)">遣</span>わしになった<span class="hiragana" data-hiragana="かた" onclick="showHiragana(this)">方</span>を<span class="hiragana" data-hiragana="う" onclick="showHiragana(this)">受</span>け<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">入</span>れるのである。」 <div class="sub-items"> <div class="hierarchy-item">•我實實在在地告訴你們，人若接待我所差遣的，就是接待我；接待我，就是接待差我來的那位。」 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>21イエスはこう<span class="hiragana" data-hiragana="はな" onclick="showHiragana(this)">話</span>し<span class="hiragana" data-hiragana="お" onclick="showHiragana(this)">終</span>えると、<span class="hiragana" data-hiragana="こころ" onclick="showHiragana(this)">心</span>を<span class="hiragana" data-hiragana="ざわ" onclick="showHiragana(this)">騒</span>がせ、<span class="hiragana" data-hiragana="だんげん" onclick="showHiragana(this)">断言</span>された。「はっきり<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>っておく。あなたがたのうちの<span class="hiragana" data-hiragana="ひとり" onclick="showHiragana(this)">一人</span>がわたしを<span class="hiragana" data-hiragana="うらぎ" onclick="showHiragana(this)">裏切</span>ろうとしている。」 <div class="sub-items"> <div class="hierarchy-item">•說完這番話，耶穌心裡憂傷，便宣佈說：「我實實在在地告訴你們，你們中間有一個人要出賣我。」 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>22<span class="hiragana" data-hiragana="でし" onclick="showHiragana(this)">弟子</span>たちは、だれについて<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>っておられるのか<span class="hiragana" data-hiragana="さっ" onclick="showHiragana(this)">察</span>しかねて、<span class="hiragana" data-hiragana="かお" onclick="showHiragana(this)">顔</span>を<span class="hiragana" data-hiragana="み" onclick="showHiragana(this)">見</span>合わせた。 <div class="sub-items"> <div class="hierarchy-item">•門徒面面相覷，不知道耶穌指的是誰。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>23イエスのすぐ<span class="hiragana" data-hiragana="となり" onclick="showHiragana(this)">隣</span>には、<span class="hiragana" data-hiragana="でし" onclick="showHiragana(this)">弟子</span>たちの<span class="hiragana" data-hiragana="ひとり" onclick="showHiragana(this)">一人</span>で、イエスの<span class="hiragana" data-hiragana="あい" onclick="showHiragana(this)">愛</span>しておられた<span class="hiragana" data-hiragana="もの" onclick="showHiragana(this)">者</span>が<span class="hiragana" data-hiragana="しょくじ" onclick="showHiragana(this)">食事</span>の<span class="hiragana" data-hiragana="せき" onclick="showHiragana(this)">席</span>に<span class="hiragana" data-hiragana="つ" onclick="showHiragana(this)">着</span>いていた。 <div class="sub-items"> <div class="hierarchy-item">•- </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>24シモン・ペトロはこの<span class="hiragana" data-hiragana="でし" onclick="showHiragana(this)">弟子</span>に、だれについて<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>っておられるのかと<span class="hiragana" data-hiragana="たず" onclick="showHiragana(this)">尋</span>ねるように<span class="hiragana" data-hiragana="あいず" onclick="showHiragana(this)">合図</span>した。 <div class="sub-items"> <div class="hierarchy-item">•西門·彼得向耶穌所愛的那個門徒點頭示意，讓他問耶穌到底是誰要出賣祂。那門徒坐在耶穌旁邊， </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>25その<span class="hiragana" data-hiragana="でし" onclick="showHiragana(this)">弟子</span>が、イエスの<span class="hiragana" data-hiragana="むね" onclick="showHiragana(this)">胸</span>もとに<span class="hiragana" data-hiragana="よ" onclick="showHiragana(this)">寄</span>りかかったまま、「<span class="hiragana" data-hiragana="しゅ" onclick="showHiragana(this)">主</span>よ、それはだれのことですか」と<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>うと、 <div class="sub-items"> <div class="hierarchy-item">•便順勢靠過去問耶穌：「主啊，是誰呢？」 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>26イエスは、「わたしがパン(ぱん)<span class="hiragana" data-hiragana="き" onclick="showHiragana(this)">切</span>れを<span class="hiragana" data-hiragana="ひた" onclick="showHiragana(this)">浸</span>して<span class="hiragana" data-hiragana="あた" onclick="showHiragana(this)">与</span>えるのがその<span class="hiragana" data-hiragana="ひと" onclick="showHiragana(this)">人</span>だ」と<span class="hiragana" data-hiragana="こた" onclick="showHiragana(this)">答</span>えられた。それから、パン(ぱん)<span class="hiragana" data-hiragana="き" onclick="showHiragana(this)">切</span>れを<span class="hiragana" data-hiragana="ひた" onclick="showHiragana(this)">浸</span>して取り、イスカリオテのシモンの<span class="hiragana" data-hiragana="こ" onclick="showHiragana(this)">子</span>ユダにお<span class="hiragana" data-hiragana="あた" onclick="showHiragana(this)">与</span>えになった。 <div class="sub-items"> <div class="hierarchy-item">•耶穌回答說：「我蘸一點餅給誰，就是誰。」耶穌就蘸了一點餅，遞給加略人西門的兒子猶大。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>27ユダがパン(ぱん)<span class="hiragana" data-hiragana="き" onclick="showHiragana(this)">切</span>れを<span class="hiragana" data-hiragana="う" onclick="showHiragana(this)">受</span>け<span class="hiragana" data-hiragana="と" onclick="showHiragana(this)">取</span>ると、サタンが<span class="hiragana" data-hiragana="かれ" onclick="showHiragana(this)">彼</span>の<span class="hiragana" data-hiragana="なか" onclick="showHiragana(this)">中</span>に<span class="hiragana" data-hiragana="はい" onclick="showHiragana(this)">入</span>った。そこでイエスは、「しようとしていることを、<span class="hiragana" data-hiragana="いま" onclick="showHiragana(this)">今</span>すぐ、しなさい」と<span class="hiragana" data-hiragana="かれ" onclick="showHiragana(this)">彼</span>に<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>われた。 <div class="sub-items"> <div class="hierarchy-item">•猶大吃了以後，撒旦就進了他的心。耶穌對他說：「你要做的事，趕快去做吧！」 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>28<span class="hiragana" data-hiragana="ざ" onclick="showHiragana(this)">座</span>に<span class="hiragana" data-hiragana="つ" onclick="showHiragana(this)">着</span>いていた<span class="hiragana" data-hiragana="もの" onclick="showHiragana(this)">者</span>はだれも、なぜユダにこう<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>われたのか<span class="hiragana" data-hiragana="わか" onclick="showHiragana(this)">分</span>らなかった。 <div class="sub-items"> <div class="hierarchy-item">•同桌吃飯的人沒有人明白耶穌這話的意思。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>29ある<span class="hiragana" data-hiragana="もの" onclick="showHiragana(this)">者</span>は、ユダが<span class="hiragana" data-hiragana="かねい" onclick="showHiragana(this)">金入</span>れを<span class="hiragana" data-hiragana="あず" onclick="showHiragana(this)">預</span>かっていたので、「<span class="hiragana" data-hiragana="まつ" onclick="showHiragana(this)">祭</span>りに<span class="hiragana" data-hiragana="ひつよう" onclick="showHiragana(this)">必要</span>な<span class="hiragana" data-hiragana="もの" onclick="showHiragana(this)">物</span>を<span class="hiragana" data-hiragana="か" onclick="showHiragana(this)">買</span>いなさい」とか、<span class="hiragana" data-hiragana="まず" onclick="showHiragana(this)">貧</span>しい<span class="hiragana" data-hiragana="ひと" onclick="showHiragana(this)">人</span>に<span class="hiragana" data-hiragana="なに" onclick="showHiragana(this)">何</span>か<span class="hiragana" data-hiragana="ほどこ" onclick="showHiragana(this)">施</span>すようにと、イエスが<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>われたのだと<span class="hiragana" data-hiragana="おも" onclick="showHiragana(this)">思</span>っていた。 <div class="sub-items"> <div class="hierarchy-item">•因為猶大是管錢的，有人以為耶穌是叫他去買過節的用品，或者去賙濟窮人。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>30ユダはパン(ぱん)<span class="hiragana" data-hiragana="き" onclick="showHiragana(this)">切</span>れを<span class="hiragana" data-hiragana="う" onclick="showHiragana(this)">受</span>け<span class="hiragana" data-hiragana="と" onclick="showHiragana(this)">取</span>ると、すぐ<span class="hiragana" data-hiragana="で" onclick="showHiragana(this)">出</span>て<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">行</span>った。<span class="hiragana" data-hiragana="よる" onclick="showHiragana(this)">夜</span>であった。 <div class="sub-items"> <div class="hierarchy-item">•猶大吃過那塊餅後，立刻出去了。那時候是晚上。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>31さて、ユダが<span class="hiragana" data-hiragana="で" onclick="showHiragana(this)">出</span>て<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">行</span>くと、イエスは<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>われた。「<span class="hiragana" data-hiragana="いま" onclick="showHiragana(this)">今</span>や、人の<span class="hiragana" data-hiragana="こ" onclick="showHiragana(this)">子</span>は<span class="hiragana" data-hiragana="えいこう" onclick="showHiragana(this)">栄光</span>を<span class="hiragana" data-hiragana="う" onclick="showHiragana(this)">受</span>けた。<span class="hiragana" data-hiragana="かみ" onclick="showHiragana(this)">神</span>も<span class="hiragana" data-hiragana="ひと" onclick="showHiragana(this)">人</span>の<span class="hiragana" data-hiragana="こ" onclick="showHiragana(this)">子</span>によって<span class="hiragana" data-hiragana="えいこう" onclick="showHiragana(this)">栄光</span>をお<span class="hiragana" data-hiragana="う" onclick="showHiragana(this)">受</span>けになった。 <div class="sub-items"> <div class="hierarchy-item">•猶大出去以後，耶穌就說：「現在人子得到榮耀了，上帝在人子身上也得了榮耀。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>32<span class="hiragana" data-hiragana="かみ" onclick="showHiragana(this)">神</span>が<span class="hiragana" data-hiragana="ひと" onclick="showHiragana(this)">人</span>の<span class="hiragana" data-hiragana="こ" onclick="showHiragana(this)">子</span>によって<span class="hiragana" data-hiragana="えいこう" onclick="showHiragana(this)">栄光</span>をお<span class="hiragana" data-hiragana="う" onclick="showHiragana(this)">受</span>けになったのであれば、<span class="hiragana" data-hiragana="かみ" onclick="showHiragana(this)">神</span>も<span class="hiragana" data-hiragana="ごじしん" onclick="showHiragana(this)">御自身</span>によって<span class="hiragana" data-hiragana="ひと" onclick="showHiragana(this)">人</span>の<span class="hiragana" data-hiragana="こ" onclick="showHiragana(this)">子</span>に<span class="hiragana" data-hiragana="えいこう" onclick="showHiragana(this)">栄光</span>をお<span class="hiragana" data-hiragana="あた" onclick="showHiragana(this)">与</span>えになる。しかも、すぐにお<span class="hiragana" data-hiragana="あた" onclick="showHiragana(this)">与</span>えになる。 <div class="sub-items"> <div class="hierarchy-item">•上帝既然在人子身上得了榮耀，也要讓人子在祂身上得榮耀，並且馬上要使人子得榮耀。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>33<span class="hiragana" data-hiragana="こ" onclick="showHiragana(this)">子</span>たちよ、いましばらく、わたしはあなたがたと<span class="hiragana" data-hiragana="とも" onclick="showHiragana(this)">共</span>にいる。あなたがたはわたしを<span class="hiragana" data-hiragana="さが" onclick="showHiragana(this)">捜</span>すだろう。『わたしが<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">行</span>く<span class="hiragana" data-hiragana="ところ" onclick="showHiragana(this)">所</span>にあなたたちは<span class="hiragana" data-hiragana="く" onclick="showHiragana(this)">来</span>ることができない』とユダヤ<span class="hiragana" data-hiragana="ゆだやじん" onclick="showHiragana(this)">人</span>たちに<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>ったように、<span class="hiragana" data-hiragana="いま" onclick="showHiragana(this)">今</span>、あなたがたにも<span class="hiragana" data-hiragana="おな" onclick="showHiragana(this)">同</span>じことを<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>っておく。 <div class="sub-items"> <div class="hierarchy-item">•孩子們，我與你們同在的時間不多了，以後你們要找我，但我去的地方，你們不能去。這句話我以前對猶太人說過，現在也照樣告訴你們。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>34あなたがたに<span class="hiragana" data-hiragana="あたら" onclick="showHiragana(this)">新</span>しい<span class="hiragana" data-hiragana="おきて" onclick="showHiragana(this)">掟</span>を<span class="hiragana" data-hiragana="あた" onclick="showHiragana(this)">与</span>える。<span class="hiragana" data-hiragana="たが" onclick="showHiragana(this)">互</span>いに<span class="hiragana" data-hiragana="あい" onclick="showHiragana(this)">愛</span>し<span class="hiragana" data-hiragana="あ" onclick="showHiragana(this)">合</span>いなさい。わたしがあなたがたに<span class="hiragana" data-hiragana="あたら" onclick="showHiragana(this)">新</span>しい<span class="hiragana" data-hiragana="おきて" onclick="showHiragana(this)">掟</span>を<span class="hiragana" data-hiragana="あた" onclick="showHiragana(this)">与</span>える。<span class="hiragana" data-hiragana="たが" onclick="showHiragana(this)">互</span>いに<span class="hiragana" data-hiragana="あい" onclick="showHiragana(this)">愛</span>し<span class="hiragana" data-hiragana="あ" onclick="showHiragana(this)">合</span>いなさい。わたしがあなたがたを<span class="hiragana" data-hiragana="あい" onclick="showHiragana(this)">愛</span>したように、あなたがたも<span class="hiragana" data-hiragana="たが" onclick="showHiragana(this)">互</span>いに<span class="hiragana" data-hiragana="あい" onclick="showHiragana(this)">愛</span>し<span class="hiragana" data-hiragana="あ" onclick="showHiragana(this)">合</span>いなさい。 <div class="sub-items"> <div class="hierarchy-item">•我賜給你們一條新命令——你們要彼此相愛。我怎樣愛你們，你們也要怎樣彼此相愛。 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>35<span class="hiragana" data-hiragana="たが" onclick="showHiragana(this)">互</span>いに<span class="hiragana" data-hiragana="あい" onclick="showHiragana(this)">愛</span>し<span class="hiragana" data-hiragana="あ" onclick="showHiragana(this)">合</span>うならば、それによってあなたがたがわたしの<span class="hiragana" data-hiragana="でし" onclick="showHiragana(this)">弟子</span>であることを、<span class="hiragana" data-hiragana="みな" onclick="showHiragana(this)">皆</span>が<span class="hiragana" data-hiragana="し" onclick="showHiragana(this)">知</span>るようになる。」 <div class="sub-items"> <div class="hierarchy-item">•你們如果彼此相愛，世人就會認出你們是我的門徒。」 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>36シモン・ペトロがイエスに<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>った。「<span class="hiragana" data-hiragana="しゅ" onclick="showHiragana(this)">主</span>よ、どこへ<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">行</span>かれるのですか。」イエスが<span class="hiragana" data-hiragana="こた" onclick="showHiragana(this)">答</span>えられた。「わたしの<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">行</span>く<span class="hiragana" data-hiragana="ところ" onclick="showHiragana(this)">所</span>に、あなたは<span class="hiragana" data-hiragana="いま" onclick="showHiragana(this)">今</span>ついて<span class="hiragana" data-hiragana="く" onclick="showHiragana(this)">来</span>ることはできないが、<span class="hiragana" data-hiragana="あと" onclick="showHiragana(this)">後</span>でついて<span class="hiragana" data-hiragana="く" onclick="showHiragana(this)">来</span>ることになる。」 <div class="sub-items"> <div class="hierarchy-item">•西門·彼得問耶穌：「主啊，你要到哪裡去？」
+
+耶穌回答說：「我要去的地方，你現在不能跟我去，但將來必定跟我去。」 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>37ペトロは<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>った。「<span class="hiragana" data-hiragana="しゅ" onclick="showHiragana(this)">主</span>よ、なぜ<span class="hiragana" data-hiragana="いま" onclick="showHiragana(this)">今</span>ついて<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">行</span>けないのですか。あなたのためなら<span class="hiragana" data-hiragana="いのち" onclick="showHiragana(this)">命</span>を<span class="hiragana" data-hiragana="す" onclick="showHiragana(this)">捨</span>てます。」 <div class="sub-items"> <div class="hierarchy-item">•彼得說：「主啊！為什麼我現在不能跟你去呢？就是為你死，我也願意！」 </div></div></div><div class="hierarchy-item"> <span class="toggle">➕</span>38イエスは<span class="hiragana" data-hiragana="こた" onclick="showHiragana(this)">答</span>えられた。「わたしのために<span class="hiragana" data-hiragana="いのち" onclick="showHiragana(this)">命</span>を<span class="hiragana" data-hiragana="す" onclick="showHiragana(this)">捨</span>てると<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>うのか。はっきり<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>っておく。<span class="hiragana" data-hiragana="にわとり" onclick="showHiragana(this)">鶏</span>が<span class="hiragana" data-hiragana="な" onclick="showHiragana(this)">鳴</span>くまでに、あなたは<span class="hiragana" data-hiragana="さんど" onclick="showHiragana(this)">三度</span>わたしのことを知らないと<span class="hiragana" data-hiragana="い" onclick="showHiragana(this)">言</span>うだろう。」 <div class="sub-items"> <div class="hierarchy-item">•耶穌說：「你真的願意為我死嗎？我實實在在地告訴你，雞叫以前，你會三次不認我。」
+
+</div>
+</div>
+</div> 
+<!-- till here.... -->
+
+
+
+</br>
+<a href="index.html">Index</a></br></br></br></br>
+
+
+
+
+
+<script>
+function showHiragana(element) {
+  if (element.querySelector('.pronunciation')) {
+    element.removeChild(element.querySelector('.pronunciation'));
+  } else {
+    var hiragana = element.getAttribute("data-hiragana");
+    var pronunciationText = document.createTextNode(""+ hiragana +"");
+    var pronunciationElement = document.createElement("span");
+    pronunciationElement.appendChild(pronunciationText);
+    pronunciationElement.className = "pronunciation";
+    element.appendChild(pronunciationElement);
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const toggles = document.querySelectorAll('.toggle');
+  
+  toggles.forEach(toggle => {
+    toggle.addEventListener('click', function() {
+      const subItems = this.parentElement.querySelector('.sub-items');
+      if (subItems) {
+        subItems.classList.toggle('show');
+        this.textContent = subItems.classList.contains('show') ? '➖' : '➕';
+      }
+    });
+  });
+});
+
+// Function to change font size
+function changeFontSize(direction) {
+  const htmlElement = document.documentElement;
+  const currentFontSize = parseFloat(window.getComputedStyle(htmlElement).fontSize);
+  htmlElement.style.fontSize = `${currentFontSize + direction}px`;
+}
+</script>
+
+</body>
+</html>
